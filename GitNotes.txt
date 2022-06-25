@@ -14,6 +14,8 @@ git init --> It is used to create empty repository or re-instilize existing repo
 
 git status --> This command will Display status of current repository
 
+git clone --> This command is used to copy of any project which are already present in github respository
+syntax : git clone https://github.com/asitkr/git_notes.git
 
 Staged Files --> Files which are added and they are ready to commit
 ------------ -->These files name will be displayed in green color
