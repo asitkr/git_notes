@@ -1,4 +1,4 @@
-  02-06-2021 class
+  25-06-2022 class
 -----------------
 We have to create Git respository from github.com
 
@@ -40,11 +40,48 @@ syntax : git rm --cached * ===> This command is used to Un-Tracked Files for all
 How to configure Email and Username
 --> By using this command
 
+
 syntax : git config --global user.email "you@example.com" ===> This command is used for setting the email which are on github
 syntax : git config --global user.name "username" ===> This command is used for setting the username which are on github
 
+
 git commit --> This command is used to commit our chnages to git local repository
 syntax : git commit -m 'commit-msg'
+
+
+git log --> It shows the whole commit history.
+syntax : git log
+
+
+git branch --> List all of the branches in your repository which is already present.
+syntax :  git branch
+
+
+git branch <branch_name> --> This command is used to create a new branch which having some name
+syntax : git branch <branch_name>
+i.e : git branch dev
+
+
+git branch -d <branch_name> --> Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the 
+branch if it has unmerged changes.
+syntax :  git branch -d <branch_name>
+
+
+git branch -D <branch_name> --> Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to 
+permanently throw away all of the commits associated with a particular line of development.
+syntax : git branch -D <branch_name>
+
+
+git branch -m <branch_name> --> Rename the current branch to new branch_name.
+syntax : git branch -m <branch_name>
+
+
+git checkout --> This command is use for changing the branch.
+syntax : git checkout
+
+
+git checkout -b ＜new-branch_name＞ --> This command create the new branch and immediately switch to it
+syntax : git checkout -b ＜new-branch_name＞
 
 Note : When we execute commit command it will consider all files which are in staging area
 
